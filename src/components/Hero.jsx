@@ -4,7 +4,7 @@ function Hero() {
     <section className="bg-rose-50 text-center py-32 px-6" id="hero">
       
       {/* Título principal */}
-      <h1 className="text-4xl md:text-6xl font-bold text-rose-700 mb-6">
+      <h1 className="text-4xl md:text-4xl font-bold text-[#bba5c8] mb-6">
         En Bloom hacemos que tu marca florezca en digital 🌸
       </h1>
 
