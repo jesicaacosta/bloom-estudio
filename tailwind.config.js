@@ -5,12 +5,17 @@ export default {
     extend: {
       colors: {
         'bloom-lila': "#c2a8d1",
-        'bloom-rosa': "#fef1e8",
-        'bloom-durazno': "#f2ae97",
+        'bloom-rosa': "#f4f3e7",
+        'bloom-durazno': "##e2ab89",
         'bloom-amarillo': "#fbd174",
         'bloom-coral': "#e4885a",
-        'bloom-blanco': "#ffffff",
-        'bloom-negro': "#000000",
+        'bloom-bo': "#ef71a2",
+        'bloom-d':"#dee066",
+        'bl':"#bc8aa0", //Titulos Grandes
+        'bdjd':"#d9cab7",
+        'ffhdj':"#cebb90",
+        'jhj': "#7d6c76",
+        'sdjksu': "#8ea3b4",
       },
     },
   },

@@ -1,6 +1,3 @@
-// Importa los estilos globales (Tailwind v4 desde index.css)
-import './index.css'
-
 // Importa todos los componentes de la web
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -15,18 +12,18 @@ function App() {
   return (
     // Contenedor principal con tipografía base y color de texto
     <div className="font-sans text-neutral-800">
-      
+
       {/* NAVBAR */}
       <Header />
 
       {/* HERO (sección principal con CTA) */}
       <Hero />
+      
+      {/* PORTAFOLIO (ejemplos de trabajos) */}
+      <Portafolio />
 
       {/* SERVICIOS (paquetes/planes) */}
       <Servicios />
-
-      {/* PORTAFOLIO (ejemplos de trabajos) */}
-      <Portafolio />
 
       {/* SOBRE (historia, misión y valores) */}
       <Sobre />

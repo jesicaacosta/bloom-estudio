@@ -7,7 +7,7 @@ function Contacto() {
       <div className="max-w-3xl mx-auto text-center">
         
         {/* Título */}
-        <h2 className="text-3xl md:text-4xl font-bold text-rose-700 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#ef71a2] mb-6">
           Contacto
         </h2>
 

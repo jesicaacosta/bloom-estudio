@@ -1,7 +1,7 @@
 function Footer() {
   return (
     // Fondo rosa oscuro con texto claro
-    <footer className="bg-rose-700 text-white py-8">
+    <footer className="bg-[#ef71a2]  text-white py-8">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-6">
         
         {/* Nombre de la marca */}
