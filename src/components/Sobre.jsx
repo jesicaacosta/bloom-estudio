@@ -13,13 +13,7 @@ function Sobre() {
           </h2>
 
           <p className="text-neutral-700 leading-relaxed mb-4">
-            Bloom Estudio nace con la misión de ayudar a mujeres emprendedoras,
-            coaches, psicólogas y profesionales del bienestar a
-            <span className="font-semibold text-rose-600"> florecer en el mundo digital</span>.
-          </p>
-
-          <p className="text-neutral-700 leading-relaxed mb-4">
-            Hoy en día me dedico a acompañar a estas profesionales y emprendedores
+            Me dedico a acompañar a estas profesionales y emprendedores
             de todos los rubros a construir una presencia digital sólida y auténtica que refleje su esencia y valores.
             Mi objetivo es que cada marca no solo destaque visualmente, sino que también conecte profundamente con su audiencia
             y genere un 

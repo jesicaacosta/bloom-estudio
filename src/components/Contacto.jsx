@@ -1,7 +1,7 @@
 function Contacto() {
   return (
     // Fondo blanco con padding
-    <section id="contacto" className="bg-white py-24 px-6">
+    <section id="contacto" className="bg-[#e0e2f1] py-24 px-6">
       
       {/* Contenedor central */}
       <div className="max-w-3xl mx-auto text-center">
@@ -11,15 +11,7 @@ function Contacto() {
           Contacto
         </h2>
 
-
-
-
-
-        
-
-
-
-
+ 
         {/* Links de contacto directo */}
         <div className="mt-12 flex justify-center gap-6">
           <a

@@ -7,11 +7,11 @@ function Header() {
   return (
     // Navbar fijo arriba, fondo blanco y sombra ligera
     <header className=" bg-[#bba5c8] shadow-sm fixed top-0 left-0 w-full z-50">
-      <nav className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <nav className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6 ">
 
         {/* Logo de la marca */}
         <img
-  src="/bloom-estudio/logo.jpg"
+          src="/bloom-estudio/logo.jpg"
           alt="Bloom Logo"
           className="h-20 w-20 object-cover"
         />
