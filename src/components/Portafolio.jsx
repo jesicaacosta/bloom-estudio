@@ -20,6 +20,7 @@ function Portafolio() {
             {/* video subido local (ejemplo reel.mp4 en /public/videos/) */}
             <video controls className="w-full rounded-lg">
               <source src="/videos/reel1.mp4" type="video/mp4" />
+
               Tu navegador no soporta video.
             </video>
             <a
@@ -31,17 +32,15 @@ function Portafolio() {
             </a>
           </div>
 
+
           {/* Proyecto 2 - Otro Reel */}
           <div className="bg-white rounded-2xl shadow p-6">
-            <h3 className="text-xl font-semibold mb-3">Reel Informativo</h3>
+            <h3 className="text-xl font-semibold mb-3">Reel </h3>
             <p className="text-neutral-600 mb-4">
-              Ejemplo de reel con enfoque motivacional para emprendedoras.
             </p>
-            <video controls className="w-full rounded-lg">
-              <source src="/videos/reel2.mp4" type="video/mp4" />
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6bqLzFKTG04?si=cVua3GjM2ZwT4c97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <a
-              href="https://www.instagram.com/p/yyyy"
+              href="https://youtu.be/6bqLzFKTG04?si=0kxf08LkIQZUU1yf"
               target="_blank"
               className="block mt-4 text-rose-600 hover:underline"
             >
@@ -53,16 +52,11 @@ function Portafolio() {
           <div className="bg-white rounded-2xl shadow p-6">
             <h3 className="text-xl font-semibold mb-3">Video en YouTube</h3>
             <p className="text-neutral-600 mb-4">
-              Un video explicativo publicado en YouTube.
+              Video del tipo entrevista para Youtube.
             </p>
             <div className="aspect-video w-full rounded-lg overflow-hidden">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/VIDEO_ID"
-                title="YouTube video"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/276VducwhMo?si=mD4Fs-VD6d42UkXT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <a
               href="https://youtube.com/watch?v=VIDEO_ID"
@@ -84,11 +78,11 @@ function Portafolio() {
               <img src="/images/carousel2.png" alt="Slide 2" className="rounded-lg" />
             </div>
             <a
-              href="https://www.instagram.com/p/zzzz"
+              href="https://youtu.be/6bqLzFKTG04?si=0kxf08LkIQZUU1yf"
               target="_blank"
               className="block mt-4 text-rose-600 hover:underline"
             >
-              Ver en Instagram
+              Ver en Youtube
             </a>
           </div>
 
